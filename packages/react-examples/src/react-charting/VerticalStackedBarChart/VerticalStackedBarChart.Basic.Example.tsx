@@ -200,7 +200,6 @@ export class VerticalStackedBarChartBasicExample extends React.Component<{}, IVe
           max={1000}
           id="changeWidth_Basic"
           onChange={this._onWidthChange}
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="changeHeight_Basic">change Height:</label>
         <input
@@ -210,7 +209,6 @@ export class VerticalStackedBarChartBasicExample extends React.Component<{}, IVe
           max={1000}
           id="changeHeight_Basic"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <label htmlFor="changeBarGapMax_Basic">BarGapMax:</label>
         <input
@@ -220,7 +218,6 @@ export class VerticalStackedBarChartBasicExample extends React.Component<{}, IVe
           max={10}
           id="changeBarGapMax_Basic"
           onChange={e => this.setState({ barGapMax: +e.target.value })}
-          aria-valuetext={`ChangebarGapMaxSlider${this.state.barGapMax}`}
         />
         <Checkbox
           label="show the lines (hide or show the lines)"

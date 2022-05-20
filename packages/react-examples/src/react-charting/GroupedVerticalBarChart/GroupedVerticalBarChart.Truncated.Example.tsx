@@ -88,7 +88,6 @@ export class GroupedVerticalBarChartTruncatedExample extends React.Component<{},
           max={1000}
           id="changeWidth_Truncated"
           onChange={this._onWidthChange}
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="changeHeight_Truncated">change Height:</label>
         <input
@@ -98,7 +97,6 @@ export class GroupedVerticalBarChartTruncatedExample extends React.Component<{},
           max={1000}
           id="changeHeight_Truncated"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <div style={rootStyle}>
           <GroupedVerticalBarChart

@@ -33,7 +33,6 @@ export class LineChartCustomAccessibilityExample extends React.Component<
           max={1000}
           id="changeWidth_Custom"
           onChange={this._onWidthChange}
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="changeHeight_Custom">change Height:</label>
         <input
@@ -43,7 +42,6 @@ export class LineChartCustomAccessibilityExample extends React.Component<
           max={1000}
           id="changeHeight_Custom"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <Toggle
           label="Enabled  multiple shapes for each line"

@@ -68,7 +68,6 @@ export class LineChartStyledExample extends React.Component<{}, IStyledLineChart
           max={1000}
           id="changeWidth_Styled"
           onChange={this._onWidthChange}
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="changeHeight_Styled">change Height:</label>
         <input
@@ -78,7 +77,6 @@ export class LineChartStyledExample extends React.Component<{}, IStyledLineChart
           max={1000}
           id="changeHeight_Styled"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <div style={rootStyle}>
           <LineChart

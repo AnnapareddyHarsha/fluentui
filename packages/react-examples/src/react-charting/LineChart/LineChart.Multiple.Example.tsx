@@ -30,7 +30,6 @@ export class LineChartMultipleExample extends React.Component<{}, ILineChartMult
           max={1000}
           id="changeWidth_Multiple"
           onChange={this._onWidthChange}
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="changeHeight_Multiple">change Height:</label>
         <input
@@ -40,7 +39,6 @@ export class LineChartMultipleExample extends React.Component<{}, ILineChartMult
           max={1000}
           id="changeHeight_Multiple"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <Toggle
           label="Enabled  multiple shapes for each line"

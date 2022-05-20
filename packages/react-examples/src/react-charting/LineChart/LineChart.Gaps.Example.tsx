@@ -244,7 +244,6 @@ export class LineChartGapsExample extends React.Component<{}, ILineChartGapsStat
           max={1500}
           id="changeWidth_Gaps"
           onChange={this._onWidthChange}
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="ChangeHeight_Gaps">change Height:</label>
         <input
@@ -254,7 +253,6 @@ export class LineChartGapsExample extends React.Component<{}, ILineChartGapsStat
           max={1000}
           id="changeHeight_Gaps"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <div style={rootStyle}>
           <LineChart

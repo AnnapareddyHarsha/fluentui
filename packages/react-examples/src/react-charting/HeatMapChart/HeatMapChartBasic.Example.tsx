@@ -306,7 +306,6 @@ export class HeatMapChartBasicExample extends React.Component<{}, IHeatMapChartB
           max={1000}
           onChange={this._onWidthChange}
           id="changeWidth_Example"
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="changeHeight_Example">change Height:</label>
         <input
@@ -316,7 +315,6 @@ export class HeatMapChartBasicExample extends React.Component<{}, IHeatMapChartB
           max={1000}
           id="changeHeight_Example"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <p>Heat map explaining the Air Quality Index</p>
         <div style={rootStyle}>

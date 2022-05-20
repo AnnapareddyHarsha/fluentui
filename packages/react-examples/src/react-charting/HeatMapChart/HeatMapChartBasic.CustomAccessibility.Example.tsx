@@ -367,7 +367,6 @@ export class HeatMapChartCustomAccessibilityExample extends React.Component<{}, 
           max={1000}
           id="ChangeWidth_Custom"
           onChange={this._onWidthChange}
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="ChangeHeight_Custom">change Height:</label>
         <input
@@ -377,7 +376,6 @@ export class HeatMapChartCustomAccessibilityExample extends React.Component<{}, 
           max={1000}
           id="changeHeight_Custom"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <p>Heat map explaining the Air Quality Index</p>
         <div style={rootStyle}>

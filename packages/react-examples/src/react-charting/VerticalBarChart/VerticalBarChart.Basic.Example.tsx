@@ -154,7 +154,6 @@ export class VerticalBarChartBasicExample extends React.Component<IVerticalBarCh
           max={1000}
           onChange={this._onWidthChange}
           id="changeWidth"
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="changeHeight">change Height:</label>
         <input
@@ -164,7 +163,6 @@ export class VerticalBarChartBasicExample extends React.Component<IVerticalBarCh
           max={1000}
           id="changeHeight"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <ChoiceGroup options={options} defaultSelectedKey="basicExample" onChange={this._onChange} label="Pick one" />
         <Checkbox

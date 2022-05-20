@@ -37,7 +37,6 @@ export class LineChartEventsExample extends React.Component<{}, ILineChartEvents
           max={1000}
           onChange={this._onWidthChange}
           id="changeWidth_Events"
-          aria-valuetext={`ChangeWidthSlider${this.state.width}`}
         />
         <label htmlFor="changeHeight_Events">change Height:</label>
         <input
@@ -47,7 +46,6 @@ export class LineChartEventsExample extends React.Component<{}, ILineChartEvents
           max={1000}
           id="changeHeight_Events"
           onChange={this._onHeightChange}
-          aria-valuetext={`ChangeHeightslider${this.state.height}`}
         />
         <Toggle
           label="Enabled  multiple shapes for each line"
