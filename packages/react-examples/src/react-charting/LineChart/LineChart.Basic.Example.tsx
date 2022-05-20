@@ -141,24 +141,10 @@ export class LineChartBasicExample extends React.Component<{}, ILineChartBasicSt
 
     return (
       <>
-        <label htmlFor="changeWidth_basic">change Width:</label>
-        <input
-          type="range"
-          value={this.state.width}
-          min={200}
-          max={1000}
-          id="changeWidth_Basic"
-          onChange={this._onWidthChange}
-        />
-        <label htmlFor="changeHeight_Basic">change Height:</label>
-        <input
-          type="range"
-          value={this.state.height}
-          min={200}
-          max={1000}
-          id="changeHeight_Basic"
-          onChange={this._onHeightChange}
-        />
+        <label>change Width:</label>
+        <input type="range" value={this.state.width} min={200} max={1000} onChange={this._onWidthChange} />
+        <label>change Height:</label>
+        <input type="range" value={this.state.height} min={200} max={1000} onChange={this._onHeightChange} />
         <Toggle
           label="Enabled  multiple shapes for each line"
           onText="On"

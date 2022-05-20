@@ -359,24 +359,10 @@ export class HeatMapChartCustomAccessibilityExample extends React.Component<{}, 
     ];
     return (
       <>
-        <label htmlFor="ChangeWidth_Custom">change Width:</label>
-        <input
-          type="range"
-          value={this.state.width}
-          min={200}
-          max={1000}
-          id="ChangeWidth_Custom"
-          onChange={this._onWidthChange}
-        />
-        <label htmlFor="ChangeHeight_Custom">change Height:</label>
-        <input
-          type="range"
-          value={this.state.height}
-          min={200}
-          max={1000}
-          id="changeHeight_Custom"
-          onChange={this._onHeightChange}
-        />
+        <label>change Width:</label>
+        <input type="range" value={this.state.width} min={200} max={1000} onChange={this._onWidthChange} />
+        <label>change Height:</label>
+        <input type="range" value={this.state.height} min={200} max={1000} onChange={this._onHeightChange} />
         <p>Heat map explaining the Air Quality Index</p>
         <div style={rootStyle}>
           <HeatMapChart

@@ -101,51 +101,46 @@ export class VerticalStackedBarChartStyledExample extends React.Component<{}, IV
     return (
       <>
         <div>
-          <label htmlFor="ChangeWidth_Styled">Width:</label>
+          <label>Width:</label>
           <input
             type="range"
             value={this.state.width}
             min={200}
             max={1000}
-            id="ChangeWidth_Styled"
             onChange={e => this.setState({ width: +e.target.value })}
           />
-          <label htmlFor="changeHeight_Styled">Height:</label>
+          <label>Height:</label>
           <input
             type="range"
             value={this.state.height}
             min={200}
             max={1000}
-            id="changeHeight_Styled"
             onChange={e => this.setState({ height: +e.target.value })}
           />
         </div>
         <div>
-          <label htmlFor="changeBarGapMax_Styled">BarGapMax:</label>
+          <label>BarGapMax:</label>
           <input
             type="range"
             value={this.state.barGapMax}
             min={0}
             max={10}
-            id="changeBarGapMax_Styled"
             onChange={e => this.setState({ barGapMax: +e.target.value })}
           />
-          <label htmlFor="ChangeBarCornerRadius_condition">BarCornerRadius:</label>
+          <label>BarCornerRadius:</label>
           <input
             type="range"
             value={this.state.barCornerRadius}
             min={0}
             max={10}
-            id="ChangeBarCornerRadius_condition"
             onChange={e => this.setState({ barCornerRadius: +e.target.value })}
           />
-          <label htmlFor="ChangeBarMinimumHeight_condition">BarMinimumHeight:</label>
+          <label>BarMinimumHeight:</label>
           <input
             type="range"
             value={this.state.barMinimumHeight}
             min={0}
             max={10}
-            id="ChangeBarMinimumHeight_condition"
             onChange={e => this.setState({ barMinimumHeight: +e.target.value })}
           />
           <ChoiceGroup

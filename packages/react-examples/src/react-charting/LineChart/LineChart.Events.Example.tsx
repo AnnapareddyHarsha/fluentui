@@ -29,24 +29,10 @@ export class LineChartEventsExample extends React.Component<{}, ILineChartEvents
   public render(): JSX.Element {
     return (
       <>
-        <label htmlFor="changeWidth_Events">change Width:</label>
-        <input
-          type="range"
-          value={this.state.width}
-          min={200}
-          max={1000}
-          onChange={this._onWidthChange}
-          id="changeWidth_Events"
-        />
-        <label htmlFor="changeHeight_Events">change Height:</label>
-        <input
-          type="range"
-          value={this.state.height}
-          min={200}
-          max={1000}
-          id="changeHeight_Events"
-          onChange={this._onHeightChange}
-        />
+        <label>change Width:</label>
+        <input type="range" value={this.state.width} min={200} max={1000} onChange={this._onWidthChange} />
+        <label>change Height:</label>
+        <input type="range" value={this.state.height} min={200} max={1000} onChange={this._onHeightChange} />
         <Toggle
           label="Enabled  multiple shapes for each line"
           onText="On"
