@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Fixing Horizontal Bar Chart Styles",
+  "packageName": "@fluentui/react-charting",
+  "email": "v-hannapared@microsoft.com",
+  "dependentChangeType": "patch"
+}
